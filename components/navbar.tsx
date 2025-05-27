@@ -11,7 +11,15 @@ import {
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { Logo } from "./ui/logo";
-import { sections } from "@/data";
+
+// Define new nav bar items
+const sections = [
+  { name: "Discord", link: "https://discord.com/" },
+  { name: "About", link: "#about" },
+  { name: "Performance", link: "#performance" },
+  { name: "Migration Requirements", link: "#requirements" },
+  { name: "FAQ", link: "#faq" },
+];
 
 // Desktop navigation bar component
 const DesktopNav = ({

@@ -6,14 +6,18 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Globe } from "./ui/globe";
 import { ChatStackFeed } from "@/components/ui/animated-list";
+import { AuroraText } from "./ui/aurora-text";
 
 export function Features() {
   return (
-    <div id="about" className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8">
-      <h2 className="text-bold text-neutral-8000 text-center font-sans text-xl font-semibold tracking-tight md:text-4xl text-neutral-600 dark:text-neutral-100">
-        About Us
+    <div
+      id="about"
+      className="mx-auto my-20  w-full max-w-7xl py-100 px-4 md:px-8 sm:py-20"
+    >
+      <h2 className="text-center font-sans text-xl font-semibold tracking-tight">
+        <AuroraText className="text-3xl md:text-6xl">Requirements</AuroraText>
       </h2>
-      <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-neutral-600 dark:text-neutral-400">
+      <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-white ">
         Welcome to 3517. We’re not here for dragons or stock fantasy art—we’re
         here to ruin kingdoms and maybe send a toe or two. Stats? Stupid high.
         Behavior? Questionable. You in?

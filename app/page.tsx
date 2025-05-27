@@ -2,6 +2,8 @@
 import NavBar from "@/components/navbar";
 import Hero from "@/components/hero";
 import { Features } from "@/components/feature";
+import { Performance } from "@/components/performance";
+import { Requirements } from "@/components/requirements";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <div className="container mx-auto">
         <Hero />
         <Features />
+        <Performance />
+        <Requirements />
       </div>
     </div>
   );
