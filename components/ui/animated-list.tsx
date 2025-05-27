@@ -65,7 +65,7 @@ export function ChatStackFeed({ className }: { className?: string }) {
         return [next, ...prev].slice(0, 6);
       });
       index++;
-    }, 5000); // Changed from 3000 to 5000
+    }, 3000); // Changed from 3000 to 5000
 
     return () => clearInterval(interval);
   }, []);

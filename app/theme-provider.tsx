@@ -20,7 +20,7 @@ export default function ThemeProviderWrapper({
     <ThemeProvider
       attribute="class"
       defaultTheme="dark"
-      enableSystem
+      forcedTheme="dark"
       disableTransitionOnChange
     >
       <div className={inter.variable}>

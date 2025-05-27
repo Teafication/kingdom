@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Globe } from "./ui/globe";
 import { ChatStackFeed } from "@/components/ui/animated-list";
-import { OrbitingCircles } from "@/components/ui/orbiting-circles";
 
 export function Features() {
   return (
@@ -26,7 +25,7 @@ export function Features() {
           <CardContent className="h-40">
             <CardTitle>Elite Kill Point Power</CardTitle>
             <CardDescription>
-              340B+ KP and climbing fast. We hit hard, and our KvK stats prove
+              540B+ KP and climbing fast. We hit hard, and our KvK stats prove
               it.
             </CardDescription>
           </CardContent>
@@ -103,21 +102,13 @@ export function Features() {
             </CardDescription>
           </CardContent>
           <CardSkeletonBody className="flex items-center justify-center w-full h-full -mt-4">
-            <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
-              <OrbitingCircles iconSize={40}>
-                <span className="text-2xl">🏆</span>
-                <span className="text-2xl">🔥</span>
-                <span className="text-2xl">⚔️</span>
-                <span className="text-2xl">🛡️</span>
-                <span className="text-2xl">👑</span>
-              </OrbitingCircles>
-              <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
-                <span className="text-xl">🌍</span>
-                <span className="text-xl">🚩</span>
-                <span className="text-xl">💪</span>
-                <span className="text-xl">🏰</span>
-              </OrbitingCircles>
-            </div>
+            <Image
+              src="/stability.png"
+              alt="stability"
+              width={300}
+              height={300}
+              className="ml-6 w-full rounded-lg object-cover"
+            />
           </CardSkeletonBody>
         </Card>
       </div>
