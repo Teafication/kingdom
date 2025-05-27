@@ -8,7 +8,7 @@ export function Performance() {
   return (
     <div
       id="performance"
-      className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8 sm:py-20"
+      className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8 pt-20 md:pt-0 sm:py-20"
     >
       <h2 className="text-center font-sans text-xl font-semibold tracking-tight">
         <AuroraText className="text-3xl md:text-6xl">Performance</AuroraText>

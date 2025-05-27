@@ -40,7 +40,7 @@ export function Requirements() {
   return (
     <div
       id="requirements"
-      className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8 sm:py-20"
+      className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8 pt-20 md:pt-0"
     >
       <h2 className="text-center font-sans text-xl font-semibold tracking-tight">
         <AuroraText className="text-3xl md:text-6xl">Requirements</AuroraText>

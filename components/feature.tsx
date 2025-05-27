@@ -12,7 +12,7 @@ export function Features() {
   return (
     <div
       id="about"
-      className="mx-auto my-20  w-full max-w-7xl py-100 px-4 md:px-8 sm:py-20"
+      className="mx-auto my-20 w-full max-w-7xl py-100 px-4 md:px-8"
     >
       <h2 className="text-center font-sans text-xl font-semibold tracking-tight">
         <AuroraText className="text-3xl md:text-6xl">About Us</AuroraText>
@@ -127,7 +127,16 @@ const CardSkeletonBody = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return <div className={cn("overflow-hidden", className)}>{children}</div>;
+  return (
+    <div
+      className={cn(
+        "overflow-hidden bg-neutral-900 dark:bg-neutral-950", // darker background
+        className
+      )}
+    >
+      {children}
+    </div>
+  );
 };
 
 const CardContent = ({
@@ -191,7 +200,8 @@ const Card = ({
     <motion.div
       whileHover="animate"
       className={cn(
-        "group isolate flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)] dark:bg-neutral-900",
+        // Set dark background for both light and dark mode for consistency
+        "group isolate flex flex-col overflow-hidden rounded-2xl bg-neutral-900 dark:bg-neutral-950 shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)]",
         className
       )}
     >
