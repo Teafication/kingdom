@@ -14,10 +14,9 @@ export function Features() {
         About Us
       </h2>
       <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-neutral-600 dark:text-neutral-400">
-        Feet pics. Questionable memes. Unrelenting violence. Welcome to 3517.
-        We’re not here for dragons or stock fantasy art—we’re here to ruin
-        kingdoms and maybe send a toe or two. Stats? Stupid high. Morals?
-        Questionable. You in?
+        Welcome to 3517. We’re not here for dragons or stock fantasy art—we’re
+        here to ruin kingdoms and maybe send a toe or two. Stats? Stupid high.
+        Behavior? Questionable. You in?
       </p>
       <div className="cols-1 mt-20 grid gap-4 md:auto-rows-[25rem] md:grid-cols-3">
         {/* Card 1 */}
@@ -42,10 +41,10 @@ export function Features() {
         {/* Card 2 */}
         <Card className={cn("flex flex-col justify-between md:col-span-1")}>
           <CardContent className="h-40">
-            <CardTitle>Degenerate Fun Included</CardTitle>
+            <CardTitle>Fun Included</CardTitle>
             <CardDescription>
-              Memes, chaos, and toe jokes. 3517 isn’t for the faint-hearted—we
-              embrace the weird.
+              Memes, chaos, and toe jokes. 3517 is not for the faint-hearted—we
+              embrace the unhinged.
             </CardDescription>
           </CardContent>
           <CardSkeletonBody>
