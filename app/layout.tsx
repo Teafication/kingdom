@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import ThemeProviderWrapper from "./theme-provider";
 
 export const metadata: Metadata = {
-  title: "Gods Domain",
-  description: "Kingdom 3435 Rise of Kingdoms Website",
+  title: "Kingdom 3517",
+  description: "Rise of Kingdoms 3517 Website",
 };
 
 const inter = Inter({
