@@ -18,7 +18,6 @@ const sections = [
   { name: "About", link: "#about" },
   { name: "Performance", link: "#performance" },
   { name: "Migration Requirements", link: "#requirements" },
-  { name: "FAQ", link: "#faq" },
 ];
 
 // Desktop navigation bar component
