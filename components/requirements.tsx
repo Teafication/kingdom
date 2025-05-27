@@ -39,7 +39,7 @@ const requirementsCards = [
 export function Requirements() {
   return (
     <div
-      id="performance"
+      id="requirements"
       className="mx-auto my-20 w-full max-w-7xl px-4 md:px-8 sm:py-20"
     >
       <h2 className="text-center font-sans text-xl font-semibold tracking-tight">

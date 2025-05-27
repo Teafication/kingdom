@@ -15,7 +15,7 @@ export function Features() {
       className="mx-auto my-20  w-full max-w-7xl py-100 px-4 md:px-8 sm:py-20"
     >
       <h2 className="text-center font-sans text-xl font-semibold tracking-tight">
-        <AuroraText className="text-3xl md:text-6xl">Requirements</AuroraText>
+        <AuroraText className="text-3xl md:text-6xl">About Us</AuroraText>
       </h2>
       <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-white ">
         Welcome to 3517. We’re not here for dragons or stock fantasy art—we’re
