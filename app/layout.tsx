@@ -21,6 +21,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
+      className="dark"
       style={{ scrollBehavior: "smooth" }}
     >
       <head>

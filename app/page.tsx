@@ -1,6 +1,7 @@
 "use client";
 import NavBar from "@/components/navbar";
 import Hero from "@/components/hero";
+import { Features } from "@/components/feature";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 
       <div className="container mx-auto">
         <Hero />
+        <Features />
       </div>
     </div>
   );

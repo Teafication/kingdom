@@ -40,7 +40,7 @@ export function Hero() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ ease: "easeOut", duration: 0.5, delay: 0.2 }}
-          className="relative z-10 mx-auto mt-6 max-w-3xl text-center text-base text-foreground md:text-xl dark:text-foreground"
+          className="relative z-10 mx-auto mt-6 max-w-3xl text-center text-base text-foreground md:text-xl dark:text-foreground p-4"
         >
           Team up with awesome people, conquer epic challenges, and make
           memories that last. Adventure, friendship, and fun await—come be part

@@ -11,7 +11,6 @@ import {
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { Logo } from "./ui/logo";
-import { ModeToggle } from "./ui/mode-toggle";
 import { sections } from "@/data";
 
 // Desktop navigation bar component
@@ -69,9 +68,6 @@ const DesktopNav = ({
           </Link>
         ))}
       </motion.div>
-      <div className="flex items-center gap-4">
-        <ModeToggle />
-      </div>
     </motion.div>
   );
 };
@@ -112,7 +108,6 @@ const MobileNav = ({
           <Logo />
         </div>
         <div className="flex items-center gap-4 mr-2">
-          <ModeToggle />
           <AnimatePresence mode="popLayout" initial={false}>
             {open ? (
               <motion.div
